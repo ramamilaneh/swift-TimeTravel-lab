@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        var spaceShip = SpaceShip(name: "Joyce", planet: .venus)
+        print(spaceShip.travel(to: .uranus))
+        
+        
         
         
     }
